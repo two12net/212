@@ -1,0 +1,60 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #efefef;
+}
+
+.content {
+	width: 100% !important;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	padding-top: 30px;
+}
+
+#home {
+	border-top: 1px solid #cc861f;
+	background-color: #de9426;
+}
+
+#projects {
+	background-color: #d9da31;
+	border-top: 1px solid #b6b721;
+}
+
+
+#menu {
+	float: right;
+	background-color: rgba(239,239,239,0.5);
+	border-bottom-left-radius: 10px;
+	font-size: 20px;
+}
+
+#menu dl {
+	margin-top: 5px;
+	margin-right: 50px;
+	text-shadow: 0 1px 1px #efefef;
+}
+
+#menu dd {
+	padding: 5px 10px 5px 10px;
+}
+
+#menu dd a {
+	color: #666666;
+}
+
+#menu dd.active a {
+	background-color: #6a98de;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: normal;
+	text-shadow: 0 -1px 1px #262626;
+	color: #e7effa;
+}
