@@ -4,6 +4,17 @@ html, body {
 
 body {
 	background-color: #efefef;
+	text-shadow: 0 1px 1px #c9c9c9;
+	color: #262626;
+}
+
+.content a {
+	color: #262626;
+	border-bottom: 1px dotted #262626;
+}
+
+.content a:hover {
+	color: #6a98de;
 }
 
 .content {
@@ -12,6 +23,10 @@ body {
 	height: auto !important;
 	height: 100%;
 	padding-top: 30px;
+}
+
+.content p {
+	font-size: 1.3em;
 }
 
 #home {
@@ -46,7 +61,7 @@ body {
 	color: #666666;
 }
 
-#menu dd.active a {
+#menu dd.active a, #menu dd.active a:hover {
 	background-color: #6a98de;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
@@ -57,4 +72,8 @@ body {
 	font-weight: normal;
 	text-shadow: 0 -1px 1px #262626;
 	color: #e7effa;
+}
+
+#menu dd a:hover {
+	color: #6a98de;
 }
